@@ -12,13 +12,14 @@ body {
     min-height: 100vh;
     background-color: rgb(204, 255, 255);
     overflow: hidden; /* Evitar rolagem no body */
+    margin: 0; /* Remover a margem do body para evitar rolagem */
 }
 
 #container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%; /* Ajustar a largura do container para caber na viewport */
+    width: 90vw; /* Ajustar para 90% da largura da viewport */
     max-width: 1000px; /* Largura máxima para o container */
     height: auto; /* Permitir que a altura se ajuste conforme o conteúdo */
     background-color: white;
@@ -37,11 +38,11 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(8, 182, 124);
+    min-height: 400px;
     gap: 10px;
     flex: 1;
-    min-height: 500px;
     padding: 20px;
-    border-radius: 15px 15px;
+    border-radius: 15px 0 0 15px;
     box-sizing: border-box;
 }
 
