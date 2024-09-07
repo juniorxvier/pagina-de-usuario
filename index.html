@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lagind Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="container">
+            <div id="sign">
+                <h1>Welcome Back!</h1>
+                <p>To keep connected with us please login with your personal info</p>
+                <div class="login">
+                    <input id="login" type="button" value="SIGN IN">
+                </div>
+            </div>
+            <div id="create">
+                <h1>Create Account</h1>
+                <div id="redes">
+                    <ul type="none">
+                        <div id="face"> 
+                            <li><a href="#"><img src="facebook.png" alt=""></a></li>
+                        </div>
+                        <div id="google" >
+                            <li><a href="#"><img src="google.png" alt=""></a></li>
+                        </div>
+                        <div id="link">
+                            <li><a  href="#"><img src="linkedin.png" alt=""></a></li>
+                        </div>
+                    </ul>
+                </div>
+
+                <p>or use your email for registration</p>
+
+                    <div id="form">
+                        <div class="nome">
+                            <input type="text" placeholder="Nome" name="txt" id="txt">
+                        </div>
+                        
+                        <div class="email">
+                            <input type="email" placeholder="Email" name="email" id="email">
+                        </div>
+                        <div id="senha">
+                            <input type="password" placeholder="Senha" name="password" id="password">
+                        </div>
+                    </div>
+
+                <div class="button">
+                    <input id="button" type="button" onclick="createUser()" value="SIGN UP">
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
